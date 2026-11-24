@@ -1,0 +1,15 @@
+name: InveCat
+version: '${version}'
+main: io.github.beddeak.invecat.InveCatPlugin
+api-version: '26.3'
+author: beddeak
+description: '모든 플레이어가 인벤토리 하나를 공유하고, 정해진 시간마다 한 칸씩 사라집니다. 엔더 드래곤을 잡으면 클리어. plugin by beddeak(침댁)'
+commands:
+  invecat:
+    description: 게임 시작·종료, 칸이 사라지는 주기, 칸 잠금·해제
+    aliases: [인벤캣, ic]
+    usage: /<command> help
+permissions:
+  invecat.admin:
+    description: 게임 시작·종료, 주기·타이머 조작, 칸 잠금·해제, 크레딧 재생
+    default: op
